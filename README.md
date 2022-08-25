@@ -45,7 +45,7 @@
 
  - If one of the params is missing or doesn't match expected data type, return *400*
 
- - If data with id_transaksi specified doesn't exist in MongoDB, return *No data with id_transaksi 10 found in the database!*
+ - If data with id_transaksi specified doesn't exist in MongoDB, return *No data with id_transaksi x found in the database!*
 ![modify doesn't exist](https://github.com/MuhammadNauvalDwiAfandi/sic-ta-w8/blob/master/images/Screenshot%202022-08-25%20142610.png)
 
  - `GET` method, return *Only for POST request!*
@@ -64,7 +64,7 @@
 
  - `POST` method, enter params, id_transaksi: int. Return *Succes! Data with id_transaksi x has been deleted! Deleted data: `data`*
  ![delete](https://github.com/MuhammadNauvalDwiAfandi/sic-ta-w8/blob/master/images/Screenshot%202022-08-25%20133146.png)
- - If data with id_transaksi specified doesn't exist in MongoDB, return *No data with id_transaksi 10 found in the database!*
+ - If data with id_transaksi specified doesn't exist in MongoDB, return *No data with id_transaksi x found in the database!*
  ![delete doesn't exist](https://github.com/MuhammadNauvalDwiAfandi/sic-ta-w8/blob/master/images/Screenshot%202022-08-25%20143907.png)
  - `GET` method, return *Only for POST request!*
  ![delete get](https://github.com/MuhammadNauvalDwiAfandi/sic-ta-w8/blob/master/images/Screenshot%202022-08-25%20144108.png)
